@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src-api"/>
+	<classpathentry kind="src" path="src-test"/>
+	<classpathentry kind="src" path="src-impl"/>
+	<classpathentry kind="src" path="src-config"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/librairies/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/eclipselink-2.7.4.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/postgresql-42.2.5.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/aspectjrt-1.8.7.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/slf4j-api-1.7.18.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/slf4j-simple-1.7.18.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/spring-aop-4.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/spring-beans-4.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/spring-context-4.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/spring-core-4.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/spring-data-commons-1.10.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/spring-data-jpa-1.8.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/spring-expression-4.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/spring-jdbc-4.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/spring-orm-4.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="resources/librairies/spring-tx-4.1.2.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
